@@ -23,7 +23,7 @@ const products: Record<string, ProductData> = {
     title: "Engine Overhaul Kits",
     image: "/engine_overhaul_kits.webp",
     description: `
-      <p class="mb-4">Jaytrac are proud to be the UK distributor for Maxiforce, a brand committed to manufacturing high-quality parts for diesel engines.</p>
+      <p class="mb-4">Power Diesel Engineering and equipment trading are proud to be the UK distributor for Maxiforce, a brand committed to manufacturing high-quality parts for diesel engines.</p>
       
       <p class="mb-4">Maxiforce was first established in 1994 and has since expanded its offering, with the most recent partnership with agricultural machinery company Kubota being launched in 2018.</p>
       
@@ -64,7 +64,7 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">This range of engines are used in a vast range of popular applications across agriculture, construction, marine and power generation applications.</p>
       
-      <p class="mb-4">If you have an engine that is need of some restoration and improvement work, get in touch with our team today and we'll provide you with a Maxiforce haul kit that has the components that you need. You can reach us on +44 (0)1604 491 133 or email us at sales@jaytrac.co.uk. Alternatively, you can get in touch directly by filling out our enquiry form.</p>
+      <p class="mb-4">If you have an engine that is need of some restoration and improvement work, get in touch with our team today and we'll provide you with a Maxiforce haul kit that has the components that you need. You can reach us on +44 (0)1604 491 133 or email us at sales@pdee.com. Alternatively, you can get in touch directly by filling out our enquiry form.</p>
     `
   },
   "donaldson-filters": {
@@ -102,14 +102,14 @@ const products: Record<string, ProductData> = {
         <li>Process filters for industrial applications</li>
       </ul>
       
-      <p class="mb-4">With Donaldson filtration, you are taking a step in the direction for a cleaner world. So, if you would like more information about Donaldson filters, or other engine components that we stock contact us via phone on +44 (0) 1604 491133 or email us at sales@jaytac.co.uk.</p>
+      <p class="mb-4">With Donaldson filtration, you are taking a step in the direction for a cleaner world. So, if you would like more information about Donaldson filters, or other engine components that we stock contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com.</p>
     `
   },
   "engine-parts": {
     title: "Engine Parts",
     image: "/Engine_Parts.jpg",
     description: `
-      <p class="mb-4">We understand that Engines are the heart of your machinery, and as such are performance-critical. With over 25 years of experience, we know which brands to stock & supply to ensure savings without the risk of compromising on quality. As one of the UK's leading parts suppliers, Jaytrac provides replacement Engine Parts for Caterpillar, Cummins, Komatsu, Volvo, Perkins and many other machinery manufacturers.</p>
+      <p class="mb-4">We understand that Engines are the heart of your machinery, and as such are performance-critical. With over 25 years of experience, we know which brands to stock & supply to ensure savings without the risk of compromising on quality. As one of the UK's leading parts suppliers, Power Diesel Engineering and equipment trading provides replacement Engine Parts for Caterpillar, Cummins, Komatsu, Volvo, Perkins and many other machinery manufacturers.</p>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Our Engine Parts Range:</h3>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -151,14 +151,14 @@ const products: Record<string, ProductData> = {
         <li>Technical support and installation advice</li>
       </ul>
       
-      <p class="mb-4">We aim to deliver high-quality products to help maintain and improve the efficiency of our customer's equipment, as well as offer an exceptional standard of customer service to match. Online or over the phone, Jaytrac is here to help you find the right product for your engine. Give us a call on +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk.</p>
+      <p class="mb-4">We aim to deliver high-quality products to help maintain and improve the efficiency of our customer's equipment, as well as offer an exceptional standard of customer service to match. Online or over the phone, Power Diesel Engineering and equipment trading is here to help you find the right product for your engine. Give us a call on +44 (0) 1604 491133 or email us at sales@pdee.com.</p>
     `
   },
   "transmission": {
     title: "Transmission",
     image: "/Transmission.jpeg",
     description: `
-      <p class="mb-4">We stock and distribute a complete range of high-quality replacement transmission and powertrain parts for Caterpillar, Komatsu and Volvo. High performing friction discs and clutch plates are essential to the longevity and performance of powertrain components. The discs and plate components supplied by Jaytrac are from OEM quality manufacturers.</p>
+      <p class="mb-4">We stock and distribute a complete range of high-quality replacement transmission and powertrain parts for Caterpillar, Komatsu and Volvo. High performing friction discs and clutch plates are essential to the longevity and performance of powertrain components. The discs and plate components supplied by Power Diesel Engineering and equipment trading are from OEM quality manufacturers.</p>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Transmission Components:</h3>
       <ul class="list-disc pl-5 mb-4 space-y-1">
@@ -174,7 +174,7 @@ const products: Record<string, ProductData> = {
       </ul>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">ZF Partnership</h3>
-      <p class="mb-4">Jaytrac is an official distributor for Original ZF Power Train and Axle Parts. As a global technology company with over 100 years of history at the forefront of commercial vehicle and industrial technology development, ZF paves the way for transport and mobility solutions. Working alongside one of the most respected names in the industry, Jaytrac is well equipped to ensure our customers receive the right product at the right price.</p>
+      <p class="mb-4">PDEE is an official distributor for Original ZF Power Train and Axle Parts. As a global technology company with over 100 years of history at the forefront of commercial vehicle and industrial technology development, ZF paves the way for transport and mobility solutions. Working alongside one of the most respected names in the industry, Power Diesel Engineering and equipment trading is well equipped to ensure our customers receive the right product at the right price.</p>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Historical Context</h3>
       <p class="mb-4">The earliest earthmoving machines were based on agricultural tractors and utilised direct drive manual gearboxes. Following developments in the USA automotive industry in the 1940/50's construction equipment manufacturers used power trains based around torque convertors, planetary gear groups and power shift transmissions.</p>
@@ -190,7 +190,7 @@ const products: Record<string, ProductData> = {
         <li>Material handling</li>
       </ul>
       
-      <p class="mb-4">For more information about the transmission products we can source supply, our partnership with ZF, or to enquire about our other products and services, contact us today on +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk, a member of our team will be happy to help.</p>
+      <p class="mb-4">For more information about the transmission products we can source supply, our partnership with ZF, or to enquire about our other products and services, contact us today on +44 (0) 1604 491133 or email us at sales@pdee.com, a member of our team will be happy to help.</p>
     `
   },
   "undercarriage": {
@@ -226,7 +226,7 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">Cat also developed the 'high drive' (elevated sprocket) design, this is when the drive is elevated away from the earth, reducing damage and providing design and maintenance advantages. Caterpillar first introduced this with the D10 dozer in 1977.</p>
       
-      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our undercarriage products or for more information about the other heavy equipment replacement parts we stock, get in touch on +44 (0) 1604 491133 or email sales@jaytrac.co.uk. We're on hand online or over the phone to help you get it right.</p>
+      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our undercarriage products or for more information about the other heavy equipment replacement parts we stock, get in touch on +44 (0) 1604 491133 or email sales@pdee.com. We're on hand online or over the phone to help you get it right.</p>
     `
   },
   "get": {
@@ -264,14 +264,14 @@ const products: Record<string, ProductData> = {
         <li>Application-specific designs for maximum productivity</li>
       </ul>
       
-      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our GET products or for more information about the other heavy equipment replacement parts we stock, get in touch with us today on +44 (0) 1604 491133 or email sales@jaytrac.co.uk. We're on hand online or over the phone to help you get it right.</p>
+      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our GET products or for more information about the other heavy equipment replacement parts we stock, get in touch with us today on +44 (0) 1604 491133 or email sales@pdee.com. We're on hand online or over the phone to help you get it right.</p>
     `
   },
   "fuel-injection-parts": {
     title: "Fuel Injection Parts",
     image: "/fuel_injection_parts .jpg",
     description: `
-      <p class="mb-4">Fuel injection parts are crucial in the role they play when it comes to delivering fuel into the cylinder. It is important to ensure that they are in optimal working condition to guarantee maximum engine performance. At Jaytrac, we offer a range of fuel injection components, including Cummins PT and Celect units and parts for Caterpillar mechanical, along with HEUI and Perkins CAV units. We also supply the wide range of Bosch product.</p>
+      <p class="mb-4">Fuel injection parts are crucial in the role they play when it comes to delivering fuel into the cylinder. It is important to ensure that they are in optimal working condition to guarantee maximum engine performance. At PDEE, we offer a range of fuel injection components, including Cummins PT and Celect units and parts for Caterpillar mechanical, along with HEUI and Perkins CAV units. We also supply the wide range of Bosch product.</p>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Our Fuel System Range:</h3>
       <ul class="list-disc pl-5 mb-4 space-y-1">
@@ -302,14 +302,14 @@ const products: Record<string, ProductData> = {
         <li>Industrial machinery</li>
       </ul>
       
-      <p class="mb-4">Whether you are looking to optimise the current performance of your heavy machinery or are in need of a replacement for a failed item, Jaytrac can provide the full solution. Talk to one of our experts by calling +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk</p>
+      <p class="mb-4">Whether you are looking to optimise the current performance of your heavy machinery or are in need of a replacement for a failed item, PDEE can provide the full solution. Talk to one of our experts by calling +44 (0) 1604 491133 or email us at sales@pdee.com</p>
     `
   },
   "fleetguard-filters": {
     title: "Fleetguard Filters",
     image: "/fleetguard_filters.jpg",
     description: `
-      <p class="mb-4">We stock and distribute high-quality filtration products from class-leading OE manufacturer Fleetguard, because, when it comes to maintaining the efficiency and performance of heavy-duty machinery we know filtration is critical. Choosing the right filter is an essential, but often over looked part of heavy machinery maintenance which is why Jaytrac is here to help.</p>
+      <p class="mb-4">We stock and distribute high-quality filtration products from class-leading OE manufacturer Fleetguard, because, when it comes to maintaining the efficiency and performance of heavy-duty machinery we know filtration is critical. Choosing the right filter is an essential, but often over looked part of heavy machinery maintenance which is why PDEE is here to help.</p>
       
       <p class="mb-4">Fleetguard, also known as Cummins Filtration, offers a full line of filters specifically engineered for a wide range of heavy-duty systems. Through advanced design and high-quality performance, Fleetguard filters give customers the ultimate protection for all of their equipment.</p>
       
@@ -327,8 +327,8 @@ const products: Record<string, ProductData> = {
       <ul class="list-disc pl-5 mb-4 space-y-1">
         <li><strong>Meets OEM Specifications</strong> – All Fleetguard products meet OEM specifications to ensure engines and other systems reach their maximum life.</li>
         <li><strong>Backed by the best warranty in the business</strong> – Fleetguard filters offer the most inclusive and comprehensive warranty in the industry, giving customers total confidence in their purchase.</li>
-        <li><strong>Filters for every fleet</strong> – Covering the widest range of air, lube, fuel, and hydraulic filters in the heavy-duty industry, with over 8,300 products let Jaytrac find the parts you need.</li>
-        <li><strong>Systems approach</strong> – Jaytrac doesn't just supply parts, in partnership with Fleetguard we supply the comprehensive range to support the maintenance of systems from fuel to cooling systems.</li>
+        <li><strong>Filters for every fleet</strong> – Covering the widest range of air, lube, fuel, and hydraulic filters in the heavy-duty industry, with over 8,300 products let PDEE find the parts you need.</li>
+        <li><strong>Systems approach</strong> – PDEE doesn't just supply parts, in partnership with Fleetguard we supply the comprehensive range to support the maintenance of systems from fuel to cooling systems.</li>
       </ul>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">OEM Compatibility:</h3>
@@ -340,7 +340,7 @@ const products: Record<string, ProductData> = {
         <li>Other major manufacturers</li>
       </ul>
       
-      <p class="mb-4">Whether you require information regarding Fleetguard filters, or our other engine part products, our friendly customer service team is on hand to answer your questions. Contact us via phone on +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk</p>
+      <p class="mb-4">Whether you require information regarding Fleetguard filters, or our other engine part products, our friendly customer service team is on hand to answer your questions. Contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
     `
   },
   "bearings": {
@@ -386,16 +386,16 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">With over 25 years of industry experience behind us, we have the knowledge to proficiently and accurately find the product you require. We look forward to helping you source anything from Caterpillar aftermarket parts to components for Deutz engines.</p>
       
-      <p class="mb-4">Our friendly customer service team is on hand to answer your questions, we're here to help. Contact us today on +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk</p>
+      <p class="mb-4">Our friendly customer service team is on hand to answer your questions, we're here to help. Contact us today on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
     `
   },
   "seals-gaskets": {
     title: "Seals & Gaskets",
     image: "/seals_gaskets.jpg",
     description: `
-      <p class="mb-4">Whilst small fixtures compared to the equipment they are used in; seals and gaskets are certainly not small in importance. Quality sealing products are essential to the performance of machine critical components. Jaytrac source sealing products from USA OEM quality Manufacturers and are committed to ensuring the consistent quality of the sealing products to our customers.</p>
+      <p class="mb-4">Whilst small fixtures compared to the equipment they are used in; seals and gaskets are certainly not small in importance. Quality sealing products are essential to the performance of machine critical components. PDEE source sealing products from USA OEM quality Manufacturers and are committed to ensuring the consistent quality of the sealing products to our customers.</p>
       
-      <p class="mb-4">Whether you need a dynamic seal or a stationary gasket, Jaytrac stock and supply a vast range of high-quality replacements for a large selection of brands. In addition to supplying individual parts, we can build and assemble full or partial overhaul kits to tailor a solution to your specifications and requirements.</p>
+      <p class="mb-4">Whether you need a dynamic seal or a stationary gasket, PDEE stock and supply a vast range of high-quality replacements for a large selection of brands. In addition to supplying individual parts, we can build and assemble full or partial overhaul kits to tailor a solution to your specifications and requirements.</p>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Our Seal & Gasket Range:</h3>
       <ul class="list-disc pl-5 mb-4 space-y-1">
@@ -426,14 +426,14 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">During the 1960's and 1970's rapid development in synthetic polymers were made and other OEM's such as Caterpillar, Komatsu and Volvo began using Silicon and Nitrile products.</p>
       
-      <p class="mb-4">We strive to supply the right products, at the right price; it's this knowledge that sets us apart, along with the excellent customer service we aim for. Call us on +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk for more information.</p>
+      <p class="mb-4">We strive to supply the right products, at the right price; it's this knowledge that sets us apart, along with the excellent customer service we aim for. Call us on +44 (0) 1604 491133 or email us at sales@pdee.com for more information.</p>
     `
   },
   "electrics": {
     title: "Electrics",
     image: "/electrics.jpeg",
     description: `
-      <p class="mb-4">We understand how frustrating and costly machinery not operating can be. Whether it is an engine not starting, or batteries not charging due to a poor-quality starter motor or alternator, we can supply the components needed to get up and running. Jaytrac supply rotating electrics from OEM or OEM quality manufacturers to keep your plant moving. Our industry knowledge and experience means when it comes to supplying you with high-quality replacement parts, we get it right.</p>
+      <p class="mb-4">We understand how frustrating and costly machinery not operating can be. Whether it is an engine not starting, or batteries not charging due to a poor-quality starter motor or alternator, we can supply the components needed to get up and running. PDEE supply rotating electrics from OEM or OEM quality manufacturers to keep your plant moving. Our industry knowledge and experience means when it comes to supplying you with high-quality replacement parts, we get it right.</p>
       
       <p class="mb-4">We hold a wide range of electrical components in stock for Caterpillar, Komatsu and Cummins machinery and have the following products available:</p>
       
@@ -466,14 +466,14 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">In the early days the Remy brothers' main competitor was Dayton Engineering Laboratories Company, DELCO for short, a company that also manufactured ignition equipment and generators. In 1916 both Remy and Delco were purchased by the United Motor Company and then subsequently by General Motors in 1918. It was General Motors who amalgamated the two competitors into the legendary electrical component brand Delco Remy.</p>
       
-      <p class="mb-4">From electrical components, to replacement machinery parts, bearings, and filters we offer a one stop service for quality replacement parts. For more information on our wide range of products contact us via phone on +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk.</p>
+      <p class="mb-4">From electrical components, to replacement machinery parts, bearings, and filters we offer a one stop service for quality replacement parts. For more information on our wide range of products contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
     `
   },
   "hydraulics-hoses": {
     title: "Hydraulics & Hoses",
     image: "/Hydraulics_Hoses .jpeg",
     description: `
-      <p class="mb-4">Jaytrac stocks and supplies a wide range of quality replacement Hydraulic parts for Caterpillar, Komatsu and Volvo heavy-duty machines to ensure you can service your equipment. We aim to provide a one stop shop for quality parts, which is why we also supply hydraulic hoses.</p>
+      <p class="mb-4">PDEE stocks and supplies a wide range of quality replacement Hydraulic parts for Caterpillar, Komatsu and Volvo heavy-duty machines to ensure you can service your equipment. We aim to provide a one stop shop for quality parts, which is why we also supply hydraulic hoses.</p>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Hydraulic Components:</h3>
       <ul class="list-disc pl-5 mb-4 space-y-1">
@@ -510,7 +510,7 @@ const products: Record<string, ProductData> = {
         <li>Industrial applications</li>
       </ul>
       
-      <p class="mb-4">For more information on our wide range of products contact us via phone on +44 (0) 1604 491133 or email us at sales@jaytrac.co.uk.</p>
+      <p class="mb-4">For more information on our wide range of products contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
     `
   }
 }

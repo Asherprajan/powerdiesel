@@ -38,7 +38,7 @@ const brands: Record<string, BrandData> = {
         <li>Fuel System Components</li>
       </ul>
       
-      <p class="mb-4">At Jaytrac, we stock a comprehensive selection of Maxiforce engine parts to support your maintenance and repair needs. Our technical team can help you identify the right components for your specific engine model and application.</p>
+      <p class="mb-4">At PDEE, we stock a comprehensive selection of Maxiforce engine parts to support your maintenance and repair needs. Our technical team can help you identify the right components for your specific engine model and application.</p>
     `
   },
   "ipd": {
@@ -61,7 +61,7 @@ const brands: Record<string, BrandData> = {
         <li>Cylinder Heads</li>
       </ul>
       
-      <p class="mb-4">Jaytrac is proud to be a distributor of IPD engine components, offering our customers cost-effective alternatives without compromising on quality or performance.</p>
+      <p class="mb-4">PDEE is proud to be a distributor of IPD engine components, offering our customers cost-effective alternatives without compromising on quality or performance.</p>
     `
   },
   "interstate-mcbee": {
@@ -84,7 +84,7 @@ const brands: Record<string, BrandData> = {
         <li>Filters and Maintenance Items</li>
       </ul>
       
-      <p class="mb-4">Jaytrac supplies a wide range of Interstate-McBee components to support your engine repair and maintenance needs, offering technical expertise to help you select the right parts for your application.</p>
+      <p class="mb-4"> PDEE supplies a wide range of Interstate-McBee components to support your engine repair and maintenance needs, offering technical expertise to help you select the right parts for your application.</p>
     `
   },
   "bosch": {
@@ -107,7 +107,7 @@ const brands: Record<string, BrandData> = {
         <li>Repair Kits</li>
       </ul>
       
-      <p class="mb-4">At Jaytrac, we offer a comprehensive selection of genuine Bosch fuel injection components to help maintain optimal performance and reliability in your diesel engines.</p>
+      <p class="mb-4">At PDEE, we offer a comprehensive selection of genuine Bosch fuel injection components to help maintain optimal performance and reliability in your diesel engines.</p>
     `
   },
   "fleetguard": {
@@ -130,7 +130,7 @@ const brands: Record<string, BrandData> = {
         <li>Filter Service Kits</li>
       </ul>
       
-      <p class="mb-4">Jaytrac supplies a wide range of genuine Fleetguard filtration products to help you maintain your equipment in optimal condition and protect your investment in heavy-duty machinery.</p>
+      <p class="mb-4">PDEE supplies a wide range of genuine Fleetguard filtration products to help you maintain your equipment in optimal condition and protect your investment in heavy-duty machinery.</p>
     `
   },
   "itr": {
@@ -153,7 +153,7 @@ const brands: Record<string, BrandData> = {
         <li>Hardware and Fasteners</li>
       </ul>
       
-      <p class="mb-4">Jaytrac is proud to be a distributor of ITR components, offering our customers high-quality alternatives for their undercarriage and GET requirements at competitive prices.</p>
+      <p class="mb-4">PDEE is proud to be a distributor of ITR components, offering our customers high-quality alternatives for their undercarriage and GET requirements at competitive prices.</p>
     `
   },
   "perkins-parts": {
@@ -162,7 +162,7 @@ const brands: Record<string, BrandData> = {
     description: `
       <p class="mb-4">Perkins is one of the world's leading suppliers of diesel and gas engines, with a history dating back to 1932. Their engines power a wide range of equipment in the construction, agricultural, industrial, and power generation sectors.</p>
       
-      <p class="mb-4">At Jaytrac, we supply both genuine and high-quality aftermarket parts for Perkins engines, providing solutions that balance performance, reliability, and value for our customers.</p>
+      <p class="mb-4">At PDEE, we supply both genuine and high-quality aftermarket parts for Perkins engines, providing solutions that balance performance, reliability, and value for our customers.</p>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Our Perkins Parts Range Includes:</h3>
       <ul class="list-disc pl-5 mb-4 space-y-1">
@@ -213,7 +213,7 @@ const brands: Record<string, BrandData> = {
         <li>Seals and Lubricants</li>
       </ul>
       
-      <p class="mb-4">Jaytrac supplies genuine Timken products to ensure the reliable performance of your equipment in construction, mining, agriculture, and other industrial applications.</p>
+      <p class="mb-4">PDEE supplies genuine Timken products to ensure the reliable performance of your equipment in construction, mining, agriculture, and other industrial applications.</p>
     `
   },
   "delco-remy": {
@@ -236,7 +236,7 @@ const brands: Record<string, BrandData> = {
         <li>Repair Kits</li>
       </ul>
       
-      <p class="mb-4">At Jaytrac, we offer a comprehensive selection of genuine Delco Remy electrical components to help maintain the electrical systems in your heavy-duty equipment.</p>
+      <p class="mb-4">At PDEE, we offer a comprehensive selection of genuine Delco Remy electrical components to help maintain the electrical systems in your heavy-duty equipment.</p>
     `
   },
   "j-and-n": {
@@ -259,7 +259,7 @@ const brands: Record<string, BrandData> = {
         <li>Repair Parts and Kits</li>
       </ul>
       
-      <p class="mb-4">Jaytrac supplies a wide range of J & N electrical components to support your equipment maintenance and repair needs, with technical expertise to help you select the right parts for your application.</p>
+      <p class="mb-4">PDEE supplies a wide range of J & N electrical components to support your equipment maintenance and repair needs, with technical expertise to help you select the right parts for your application.</p>
     `
   },
   "fmc": {
@@ -282,7 +282,7 @@ const brands: Record<string, BrandData> = {
         <li>Service Kits</li>
       </ul>
       
-      <p class="mb-4">At Jaytrac, we supply FMC friction materials to help maintain the transmission, braking, and clutch systems in your heavy-duty equipment, ensuring safe and reliable operation.</p>
+      <p class="mb-4">At PDEE , we supply FMC friction materials to help maintain the transmission, braking, and clutch systems in your heavy-duty equipment, ensuring safe and reliable operation.</p>
     `
   }
 };

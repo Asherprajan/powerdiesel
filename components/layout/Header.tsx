@@ -93,7 +93,7 @@ export default function Header() {
             Our Range
           </Link>
           <Link 
-            href="/brands" 
+            href="/quality-brands" 
             className="text-lg font-medium text-[#003b6f] hover:text-[#00b2f3] py-2 border-b"
             onClick={() => setIsMenuOpen(false)}
           >
