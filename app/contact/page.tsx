@@ -20,7 +20,7 @@ import {
   Select,
   SelectContent,
   SelectItem,
-  SelectTrigger,
+  SelectTrigger,  
   SelectValue,
 } from "@/components/ui/select"
 
@@ -41,20 +41,6 @@ export default function ContactPage() {
       phone: "+971 4 123 4567",
       email: "info@pdee.com",
       hours: "Sunday - Thursday: 8:00 AM - 6:00 PM"
-    },
-    {
-      name: "Riyadh Office - Saudi Arabia",
-      address: "King Fahd Road, Industrial Zone, Riyadh, Saudi Arabia",
-      phone: "+966 11 987 6543",
-      email: "ksa@pdee.com",
-      hours: "Sunday - Thursday: 8:00 AM - 5:00 PM"
-    },
-    {
-      name: "Cairo Office - Egypt",
-      address: "Industrial Zone, 10th of Ramadan City, Cairo, Egypt",
-      phone: "+20 2 2345 6789",
-      email: "egypt@pdee.com",
-      hours: "Sunday - Thursday: 9:00 AM - 5:00 PM"
     }
   ]
   

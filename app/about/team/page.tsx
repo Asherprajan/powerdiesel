@@ -79,9 +79,9 @@ export default function TeamPage() {
         </p>
       </div>
       
-      <h2 className="text-2xl font-bold text-[#003b6f] mb-4">Executive Leadership</h2>
+        {/* <h2 className="text-2xl font-bold text-[#003b6f] mb-4">Executive Leadership</h2> */}
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         {executiveTeam.map((executive, index) => (
           <div key={index} className="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100">
             <div className="relative w-full h-64">
@@ -121,9 +121,9 @@ export default function TeamPage() {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       
-      <div className="bg-[#003b6f] text-white rounded-lg p-8 mb-8">
+      {/* <div className="bg-[#003b6f] text-white rounded-lg p-8 mb-8">
         <h2 className="text-2xl font-bold mb-4">Our Team Values</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
@@ -155,7 +155,7 @@ export default function TeamPage() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       
       <div className="prose prose-slate max-w-none">
         <h2>Join Our Team</h2>

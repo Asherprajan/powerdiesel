@@ -99,10 +99,12 @@ export default function HistoryPage() {
         <div className="bg-gray-50 rounded-lg p-6 border border-gray-100">
           <h3 className="text-xl font-bold text-[#003b6f] mb-3">Our Founder's Vision</h3>
           <p className="text-gray-700">
-            PDEE was founded by Ahmed Al-Farsi, an engineer with extensive experience in the diesel 
+            PDEE was developed by engineers, with extensive experience in the diesel 
             engine industry. Having recognized the need for reliable parts and equipment suppliers 
-            in the region, Ahmed established the company with a clear vision: to provide high-quality 
-            products, exceptional service, and technical expertise that customers could depend on.
+            in the region, the founders established the company with a clear vision: to provide high-quality 
+            products, exceptional service, and technical expertise that customers could depend on. 
+            The founders have a combined experience of over 50 years in the diesel engine industry, 
+            and have a deep understanding of the needs of the customers.
           </p>
           <p className="text-gray-700 mt-3">
             This vision continues to drive our operations today, as we've expanded from a small local 
