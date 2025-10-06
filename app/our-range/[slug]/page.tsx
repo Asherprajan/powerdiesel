@@ -71,7 +71,7 @@ const brands: Record<string, BrandData> = {
   },
   "volvo": {
     title: "Volvo®",
-    image: "/Volvo.jpg",
+    image: "/volvo.WEBP",
     description: `
       <p class="mb-4">With quality, sustainability, and safety at the core of production, Volvo has been supplying high-quality construction equipment since its start in 1831. Combining progressive design and technological innovation, it's no surprise that Volvo CE is a market leader all over the world.</p>
       
@@ -95,6 +95,29 @@ const brands: Record<string, BrandData> = {
       <p class="mb-4">At Power Diesel Engineering and equipment trading we prioritise exceptional quality in both our products and our customer service. Find out more about our Volvo replacement parts today by calling us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
     `
   },
+  "deep-sea-electronics": {
+    title: "Deepsea Electronics Range",
+    image: "/deep-sea.jpg",
+    description: `
+      <p class="mb-4">
+        Explore our advanced Deepsea Electronics range — engineered for precision, reliability, and control across industrial and power applications. Our products are designed to deliver smart monitoring, automation, and safety in even the most demanding environments.
+      </p>
+      <p class="mb-4">
+        Advanced control modules, automation systems, and safety devices built for precision, durability, and performance in demanding industrial environments.
+      </p>
+      <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Product Range Includes:</h3>
+      <ul class="list-disc pl-5 mb-4 space-y-1">
+        <li><strong>Control Modules & Panels</strong> – Intelligent controllers for generators and industrial systems.</li>
+        <li><strong>Automation Solutions</strong> – PLC-based and IoT-integrated control systems.</li>
+        <li><strong>Safety Devices</strong> – Warning lights with hooters, anti-collision systems, limit switches, overload devices, and safety latches.</li>
+        <li><strong>Power Management Systems</strong> – Real-time monitoring and energy optimization.</li>
+        <li><strong>Custom Electronic Solutions</strong> – Tailor-made systems for industrial applications.</li>
+      </ul>
+      <p class="mb-4">
+        Contact our team to discover how Deepsea Electronics can enhance your operations with robust, intelligent solutions for control, automation, and safety.
+      </p>
+    `
+  }, 
   "cummins": {
     title: "Cummins®",
     image: "/cummins.jpg",
@@ -129,7 +152,7 @@ const brands: Record<string, BrandData> = {
   },
   "deutz": {
     title: "Deutz®",
-    image: "/deutz.jpg",
+    image: "/DEUTZ.png",
     description: `
       <p class="mb-4">Found in numerous agricultural, construction, marine, and power-generation applications, Deutz engines operate in some of the most critical, hard-wearing conditions. As the world's oldest leading independent engine manufacturer, they are no strangers to the longevity required of these engines and are continuously developing new and innovative products to serve their worldwide client base.</p>
       

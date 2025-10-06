@@ -30,7 +30,7 @@ export default function Home() {
         <RangeSection />
 
         {/* Quality Brands */}
-        <QualityBrandsSection />
+        {/* <QualityBrandsSection /> */}
         {/* <BrandsSection /> */}
 
         {/* About + Testimonials */}

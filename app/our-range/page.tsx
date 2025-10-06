@@ -65,7 +65,7 @@ export default function OurRangePage() {
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
                 <div className="relative h-52">
                   <Image 
-                    src="/Volvo.jpg" 
+                    src="/volvo.WEBP" 
                     alt="Volvo®"
                     fill
                     className="object-cover"
@@ -81,6 +81,25 @@ export default function OurRangePage() {
               </div>
             </Link>
             
+              <Link href="/our-range/deep-sea-electronics" className="block">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+                <div className="relative h-52">
+                  <Image 
+                    src="/deep-sea.jpg" 
+                    alt="Deepsea Electronics range"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-5">
+                  <h2 className="text-xl font-bold text-[#003b6f] mb-2">Deepsea Electronics range</h2>
+                  <p className="text-gray-600 mb-4">Deepsea Electronics range</p>
+                  <Button variant="outline" className="w-full flex items-center justify-center gap-2">
+                    View Range <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </div>
+              </div>
+            </Link>
             <Link href="/our-range/cummins" className="block">
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
                 <div className="relative h-52">
@@ -105,7 +124,7 @@ export default function OurRangePage() {
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
                 <div className="relative h-52">
                   <Image 
-                    src="/Deutz.jpg " 
+                    src="/DEUTZ.png" 
                     alt="Deutz®"
                     fill
                     className="object-cover"

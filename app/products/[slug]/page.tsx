@@ -269,7 +269,7 @@ const products: Record<string, ProductData> = {
   },
   "fuel-injection-parts": {
     title: "Fuel Injection Parts",
-    image: "/fuel_injection_parts .jpg",
+    image: "/fuel-injection.jpeg",
     description: `
       <p class="mb-4">Fuel injection parts are crucial in the role they play when it comes to delivering fuel into the cylinder. It is important to ensure that they are in optimal working condition to guarantee maximum engine performance. At PDEE, we offer a range of fuel injection components, including Cummins PT and Celect units and parts for Caterpillar mechanical, along with HEUI and Perkins CAV units. We also supply the wide range of Bosch product.</p>
       

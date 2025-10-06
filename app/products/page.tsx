@@ -47,7 +47,7 @@ const products = [
   {
     slug: "fuel-injection-parts",
     title: "Fuel Injection Parts",
-    image: "/fuel_injection_parts .jpg",
+    image: "/fuel-injection.jpeg",
     description: "High-precision fuel injectors, pumps, and injection system components"
   },
   {
@@ -80,6 +80,7 @@ const products = [
     image: "/Hydraulics_Hoses .jpeg",
     description: "Hydraulic cylinders, pumps, valves, and high-pressure hose assemblies"
   }
+  
 ]
 
 export default function ProductsPage() {
