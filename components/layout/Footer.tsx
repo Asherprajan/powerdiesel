@@ -72,7 +72,7 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="flex items-center text-sm">
-                <Phone className="h-4 w-4 mr-2" /> +1 (555) 123-4567
+                <Phone className="h-4 w-4 mr-2" /> +971508492690
               </li>
               <li className="flex items-center text-sm">
                 <Mail className="h-4 w-4 mr-2" /> info@pdee.com

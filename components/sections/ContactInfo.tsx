@@ -10,7 +10,7 @@ export default function ContactInfo() {
             <Phone className="h-5 w-5 text-[#003b6f] mt-0.5" />
             <div>
               <h3 className="font-medium text-[#003b6f]">Phone</h3>
-              <p className="text-gray-600">+1 (555) 123-4567</p>
+              <p className="text-gray-600">+971508492690</p>
             </div>
           </div>
           <div className="flex items-start space-x-3">

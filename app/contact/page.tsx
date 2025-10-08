@@ -38,7 +38,7 @@ export default function ContactPage() {
     {
       name: "Headquarters - Dubai, UAE",
       address: "Power Diesel Building, Industrial Area 2, Dubai, United Arab Emirates",
-      phone: "+971 4 123 4567",
+      phone: "+971508492690",  
       email: "info@pdee.com",
       hours: "Sunday - Thursday: 8:00 AM - 6:00 PM"
     }
@@ -181,11 +181,11 @@ export default function ContactPage() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                           <div className="space-y-2">
                             <Label htmlFor="email">Email Address</Label>
-                            <Input id="email" type="email" placeholder="john@example.com" required />
+                            <Input id="email" type="email" placeholder="info@pdee.com" required />
                           </div>
                           <div className="space-y-2">
                             <Label htmlFor="phone">Phone Number</Label>
-                            <Input id="phone" placeholder="+1 (555) 123-4567" />
+                            <Input id="phone" placeholder="+971508492690" />
                           </div>
                         </div>
                         
