@@ -42,9 +42,9 @@ const brands: Record<string, BrandData> = {
       
       <p class="mb-4">Caterpillar is famous for their crawler tractors, or Dozers, and these were first used in large numbers in WWI as gun-tractors. In WWII Cat machines were manufactured in huge volumes. Their use became closely associated with the Construction Battalions, or 'Seabees' in the Pacific, and airfield construction in Europe. Cat dozers could also be seen playing their part clearing beaches in the Normandy landings.</p>
       
-      <p class="mb-4">To find out more call us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
+      <p class="mb-4">To find out more call us on +971508492690, email us at info@pdee.net or get in touch directly via our online enquiry form.</p>
     `
-  },
+  },  
   "komatsu": {
     title: "Komatsu®",
     image: "/komatsu.jpg",
@@ -66,10 +66,10 @@ const brands: Record<string, BrandData> = {
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">About Komatsu</h3>
       <p class="mb-4">Komatsu have manufactured mining, agricultural and military equipment since the early 1900s. They are the second-largest manufacturer of construction and mining equipment after Caterpillar. Some of the most notable Komatsu machines include the world's first 1,000 horsepower dozer the D575A, and the huge PC8000 excavator, weighing in at over 700 tonnes! The ever-popular PC200-300 excavators and D65 – D155 dozers are machines that Power Diesel Engineering can provide parts for.</p>
       
-      <p class="mb-4">We are a one-stop shop for replacement products and consider ourselves to be a genuine alternative, offering value for money. With happy customers across the globe, we can provide a wealth of expert advice. To find out more call us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
+      <p class="mb-4">We are a one-stop shop for replacement products and consider ourselves to be a genuine alternative, offering value for money. With happy customers across the globe, we can provide a wealth of expert advice. To find out more call us on +971508492690, email us at info@pdee.net or get in touch directly via our online enquiry form.</p>
     `
   },
-  "volvo": {
+  "volvo": {  
     title: "Volvo®",
     image: "/volvo.WEBP",
     description: `
@@ -92,7 +92,7 @@ const brands: Record<string, BrandData> = {
       
       <p class="mb-4">One of Volvo's legendary products is the Articulated hauler or ADT. Since its launch in 1966, this multi-terrain hauler transformed earth moving with its articulation joint between the tractor and trailer unit. The concept became so popular that by the late 1980's, Volvo BM dominated more than 50% of the market with its A20, A25 and A35 machines visible all over the world.</p>
       
-      <p class="mb-4">At Power Diesel Engineering and equipment trading we prioritise exceptional quality in both our products and our customer service. Find out more about our Volvo replacement parts today by calling us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
+      <p class="mb-4">At Power Diesel Engineering and equipment trading we prioritise exceptional quality in both our products and our customer service. Find out more about our Volvo replacement parts today by calling us on +971508492690, email us at info@pdee.net or get in touch directly via our online enquiry form.</p>
     `
   },
   "deep-sea-electronics": {
@@ -147,7 +147,7 @@ const brands: Record<string, BrandData> = {
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">History of Cummins</h3>
       <p class="mb-4">Cummins as a brand was established in 1919 by Engineer Clessie Cummins, and based in Indiana, USA. The Cummins Engine Co. was one of the first to take advantage of the pioneering technology developed in Germany by Rudolf Diesel during the late 1800's. Cummins oil burning, or 'Diesel', engines were so reliable and successful that they were the first Company to offer 100,000 mile Warranty. They were fast as well, competing in the early Indianapolis 500 races running nonstop!</p>
       
-      <p class="mb-4">We look forward to helping all our customers rebuild their engines, no matter how big or small the project. To discuss our parts and services in more detail call us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
+      <p class="mb-4">We look forward to helping all our customers rebuild their engines, no matter how big or small the project. To discuss our parts and services in more detail call us on +971508492690, email us at info@pdee.net or get in touch directly via our online enquiry form.</p>
     `
   },
   "deutz": {
@@ -175,7 +175,7 @@ const brands: Record<string, BrandData> = {
       
       <p class="mb-4">Deutz started and fostered the careers of many famous engineering and automotive icons such as: Nicolaus Otto, Gottlieb Daimler, Wilhelm Maybach, Prosper L'Orange, Ettore Bugatti, and Robert Bosch.</p>
       
-      <p class="mb-4">Power Diesel Engineering and equipment trading is the one-stop-shop for all replacement Deutz Engine Parts, with our expert team dedicated to helping you rebuild your engine with the right products at the right price. To find out more call us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
+      <p class="mb-4">Power Diesel Engineering and equipment trading is the one-stop-shop for all replacement Deutz Engine Parts, with our expert team dedicated to helping you rebuild your engine with the right products at the right price. To find out more call us on +971508492690, email us at info@pdee.net or get in touch directly via our online enquiry form.</p>
     `
   },
   "perkins": {
@@ -205,7 +205,7 @@ const brands: Record<string, BrandData> = {
       
       <p class="mb-4">Perkins was also a supplier to Caterpillar, since the 1970's, and in a major move for both Companies Cat purchased Perkins in 1998. Still developed and manufactured in Peterborough Perkins are leading the way with clean technology to meets today's challenges and standards.</p>
       
-      <p class="mb-4">If you need Perkins engine parts for your engine rebuild, get in touch with our team at Power Diesel Engineering and equipment trading today. We have a range of experts on-hand to make sure all of our customers find the right parts at the right price. To find out more call us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
+      <p class="mb-4">If you need Perkins engine parts for your engine rebuild, get in touch with our team at Power Diesel Engineering and equipment trading today. We have a range of experts on-hand to make sure all of our customers find the right parts at the right price. To find out more call us on +971508492690, email us at info@pdee.net or get in touch directly via our online enquiry form.</p>
     `
   },
   "fg-wilson": {
@@ -236,11 +236,11 @@ const brands: Record<string, BrandData> = {
       
       <p class="mb-4">FG Wilson was sold to Caterpillar in 1999 but within a year Fred Wilson was back designing and manufacturing golf buggies!</p>
       
-      <p class="mb-4">Get in touch with our expert team today to find out how we can help with your latest engine rebuild. Call us on +44 (0)1604 491 133, email us at sales@pdee.com or get in touch directly via our online enquiry form.</p>
+        <p class="mb-4">Get in touch with our expert team today to find out how we can help with your latest engine rebuild. Call us on +971508492690, email us at info@pdee.net or get in touch directly via our online enquiry form.</p>
     `
   }
 }
-
+  
 export default function BrandPage() {
   const params = useParams();
   const [brand, setBrand] = useState<BrandData>({

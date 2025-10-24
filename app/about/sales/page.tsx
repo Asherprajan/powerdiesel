@@ -52,7 +52,7 @@ export default function SalesPage() {
         
         <div className="relative w-full h-64 rounded-lg overflow-hidden">
           <Image 
-            src="/placeholder.svg?height=300&width=400" 
+            src="/sales.jpg" 
             alt="PDEE Sales Team"
             fill
             className="object-cover"

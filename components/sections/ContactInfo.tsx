@@ -17,7 +17,7 @@ export default function ContactInfo() {
             <Mail className="h-5 w-5 text-[#003b6f] mt-0.5" />
             <div>
               <h3 className="font-medium text-[#003b6f]">Email</h3>
-              <p className="text-gray-600">info@pdee.com</p>
+              <p className="text-gray-600">info@pdee.net</p>  
             </div>
           </div>
           <div className="flex items-start space-x-3">

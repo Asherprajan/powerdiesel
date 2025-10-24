@@ -62,7 +62,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="text-sm hover:text-[#00b2f3]">
+                <Link href="/privacy-policy" className="text-sm hover:text-[#00b2f3]">
                   Privacy Policy
                 </Link>
               </li>
@@ -75,7 +75,7 @@ export default function Footer() {
                 <Phone className="h-4 w-4 mr-2" /> +971508492690
               </li>
               <li className="flex items-center text-sm">
-                <Mail className="h-4 w-4 mr-2" /> info@pdee.com
+                <Mail className="h-4 w-4 mr-2" /> info@pdee.net
               </li>
               <li className="flex items-start text-sm">
                 <MapPin className="h-4 w-4 mr-2 mt-0.5" /> 123 Industrial Parkway, Business District, City, Country

@@ -26,20 +26,67 @@ import {
 
 export default function ContactPage() {
   const [formSubmitted, setFormSubmitted] = useState(false)
-  
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // In a real application, this would send the form data to a server
-    setFormSubmitted(true)
-    // Reset form fields here if needed
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
+
+  // Form fields
+  const [formData, setFormData] = useState({
+    name: "",
+    company: "",
+    email: "",
+    phone: "",
+    inquiryType: "",
+    message: "",
+  })
+
+  // Accept both input and textarea
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { id, value } = e.target
+    setFormData({ ...formData, [id]: value })
   }
-  
+
+  const handleSelectChange = (value: string) => {
+    setFormData({ ...formData, inquiryType: value })
+  }
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setLoading(true)
+    setError(null)
+
+    try {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbxpUZq8BOCrAM5BKkGzC-0ueuIRfCJhZuUO1qmVaBTBp6Xv5hSydm09FI6z-V6CCBbbBw/exec", {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+
+      setLoading(false)
+      setFormSubmitted(true)
+      setFormData({
+        name: "",
+        company: "",
+        email: "",
+        phone: "",
+        inquiryType: "",
+        message: "",
+      })
+    } catch (err) {
+      console.error("Form submission failed:", err) 
+      setError(null)
+      setLoading(false)
+    }
+  }
+
   const offices = [
     {
       name: "Headquarters - Dubai, UAE",
       address: "Power Diesel Building, Industrial Area 2, Dubai, United Arab Emirates",
       phone: "+971508492690",  
-      email: "info@pdee.com",
+      email: "info@pdee.net",
       hours: "Sunday - Thursday: 8:00 AM - 6:00 PM"
     }
   ]
@@ -88,7 +135,6 @@ export default function ContactPage() {
               {/* Contact Info Column */}
               <div className="space-y-6">
                 <h2 className="text-2xl font-bold text-[#003b6f] mb-6">Our Offices</h2>
-                
                 {offices.map((office, index) => (
                   <Card key={index} className="border-t-4 border-t-[#00b2f3]">
                     <CardHeader className="pb-3">
@@ -114,29 +160,6 @@ export default function ContactPage() {
                     </CardContent>
                   </Card>
                 ))}
-                
-                <Card>
-                  <CardHeader className="pb-3">
-                    <CardTitle className="text-lg">Follow Us</CardTitle>
-                    <CardDescription>Connect with us on social media</CardDescription>
-                  </CardHeader>
-                  <CardContent className="pt-0">
-                    <div className="flex space-x-4">
-                      <a href="#" className="w-9 h-9 bg-[#003b6f] text-white rounded-full flex items-center justify-center hover:bg-[#00b2f3] transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-                      </a>
-                      <a href="#" className="w-9 h-9 bg-[#003b6f] text-white rounded-full flex items-center justify-center hover:bg-[#00b2f3] transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                      </a>
-                      <a href="#" className="w-9 h-9 bg-[#003b6f] text-white rounded-full flex items-center justify-center hover:bg-[#00b2f3] transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
-                      </a>
-                      <a href="#" className="w-9 h-9 bg-[#003b6f] text-white rounded-full flex items-center justify-center hover:bg-[#00b2f3] transition-colors">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                      </a>
-                    </div>
-                  </CardContent>
-                </Card>
               </div>
               
               {/* Contact Form Column */}
@@ -170,34 +193,34 @@ export default function ContactPage() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                           <div className="space-y-2">
                             <Label htmlFor="name">Full Name</Label>
-                            <Input id="name" placeholder="John Doe" required />
+                            <Input id="name" value={formData.name} onChange={handleChange} placeholder="John Doe" required />
                           </div>
                           <div className="space-y-2">
                             <Label htmlFor="company">Company Name</Label>
-                            <Input id="company" placeholder="Your Company Ltd." />
+                            <Input id="company" value={formData.company} onChange={handleChange} placeholder="Your Company Ltd." />
                           </div>
                         </div>
                         
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                           <div className="space-y-2">
                             <Label htmlFor="email">Email Address</Label>
-                            <Input id="email" type="email" placeholder="info@pdee.com" required />
+                            <Input id="email" type="email" value={formData.email} onChange={handleChange} placeholder="info@pdee.net" required />
                           </div>
                           <div className="space-y-2">
                             <Label htmlFor="phone">Phone Number</Label>
-                            <Input id="phone" placeholder="+971508492690" />
+                            <Input id="phone" value={formData.phone} onChange={handleChange} placeholder="+971508492690" />
                           </div>
                         </div>
                         
                         <div className="space-y-2">
                           <Label htmlFor="inquiry-type">Inquiry Type</Label>
-                          <Select>
+                          <Select onValueChange={handleSelectChange} value={formData.inquiryType}>
                             <SelectTrigger id="inquiry-type">
                               <SelectValue placeholder="Select inquiry type" />
                             </SelectTrigger>
                             <SelectContent>
                               {inquiryTypes.map((type, index) => (
-                                <SelectItem key={index} value={type.toLowerCase().replace(/\s+/g, '-')}>
+                                <SelectItem key={index} value={type}>
                                   {type}
                                 </SelectItem>
                               ))}
@@ -209,14 +232,22 @@ export default function ContactPage() {
                           <Label htmlFor="message">Your Message</Label>
                           <Textarea 
                             id="message" 
+                            value={formData.message}
+                            onChange={handleChange}
                             placeholder="Please provide details about your inquiry..." 
                             rows={6}
                             required
                           />
                         </div>
+
+                        {error && <p className="text-red-600 text-sm">{error}</p>}
                         
-                        <Button type="submit" className="w-full bg-[#003b6f] hover:bg-[#002a50]">
-                          <Send className="mr-2 h-4 w-4" /> Send Message
+                        <Button 
+                          type="submit" 
+                          className="w-full bg-[#003b6f] hover:bg-[#002a50]" 
+                          disabled={loading}
+                        >
+                          {loading ? "Sending..." : <><Send className="mr-2 h-4 w-4" /> Send Message</>}
                         </Button>
                       </form>
                     )}
@@ -226,74 +257,9 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
-        
-        {/* Map Section */}
-        <section className="py-16 px-4 md:px-6">
-          <div className="container mx-auto">
-            <h2 className="text-2xl font-bold text-[#003b6f] mb-6 text-center">Find Us</h2>
-            <div className="relative h-96 rounded-lg overflow-hidden border border-gray-200">
-              <Image 
-                src="/placeholder.svg?height=600&width=1200&text=Map+Location" 
-                alt="Office Location Map"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </section>
-        
-        {/* FAQ Section */}
-        <section className="py-16 px-4 md:px-6 bg-gray-50">
-          <div className="container mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-[#003b6f] mb-4">Frequently Asked Questions</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Find answers to common questions about our products, services, and policies.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-bold text-[#003b6f] mb-3">What are your delivery timeframes?</h3>
-                <p className="text-gray-700">
-                  Delivery times vary depending on your location and product availability. 
-                  For in-stock items, we typically ship within 24-48 hours. International 
-                  deliveries generally take 3-10 business days depending on the destination.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-bold text-[#003b6f] mb-3">Do you offer technical support?</h3>
-                <p className="text-gray-700">
-                  Yes, our technical team is available to assist with product selection, 
-                  installation guidance, and troubleshooting. You can reach our support 
-                  team via phone, email, or by submitting a ticket through our customer portal.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-bold text-[#003b6f] mb-3">How can I check the status of my order?</h3>
-                <p className="text-gray-700">
-                  You can track your order through our customer portal using your order 
-                  number and email address. Alternatively, contact our customer service 
-                  team with your order reference for updates on your purchase.
-                </p>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-bold text-[#003b6f] mb-3">What payment methods do you accept?</h3>
-                <p className="text-gray-700">
-                  We accept various payment methods including credit/debit cards, bank 
-                  transfers, and letters of credit for large orders. For regular business 
-                  customers, we also offer flexible payment terms with approved credit.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
       
       <Footer />
     </div>
   )
-} 
+}

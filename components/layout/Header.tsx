@@ -50,6 +50,9 @@ export default function Header() {
           <Link href="/contact" className="text-sm font-medium text-[#003b6f] hover:text-[#00b2f3] transition-colors">
             Contact
           </Link>
+          <Link href="/careers" className="text-sm font-medium text-[#003b6f] hover:text-[#00b2f3] transition-colors">
+            Careers
+          </Link>
           <Button className="bg-[#00b2f3] hover:bg-[#0090c3] text-white">Enquire Now</Button>
         </nav>
         
@@ -112,6 +115,13 @@ export default function Header() {
             onClick={() => setIsMenuOpen(false)}
           >
             Contact
+          </Link>
+          <Link 
+            href="/careers" 
+            className="text-lg font-medium text-[#003b6f] hover:text-[#00b2f3] py-2 border-b"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Careers
           </Link>
           <Button className="bg-[#00b2f3] hover:bg-[#0090c3] text-white w-full mt-4">
             Enquire Now

@@ -17,7 +17,7 @@ export default function WarrantyPage() {
       
       <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-8">
         <Image 
-          src="/placeholder.svg?height=400&width=800" 
+          src="/warranty.jpg" 
           alt="PDEE Quality Products"
           fill
           className="object-cover"

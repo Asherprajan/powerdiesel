@@ -42,7 +42,7 @@ export default function QualityControlPage() {
       
       <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden mb-8">
         <Image 
-          src="/placeholder.svg?height=400&width=800" 
+          src="/quality.jpg" 
           alt="PDEE Quality Control Lab"
           fill
           className="object-cover"

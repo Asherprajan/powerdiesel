@@ -64,7 +64,7 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">This range of engines are used in a vast range of popular applications across agriculture, construction, marine and power generation applications.</p>
       
-      <p class="mb-4">If you have an engine that is need of some restoration and improvement work, get in touch with our team today and we'll provide you with a Maxiforce haul kit that has the components that you need. You can reach us on +44 (0)1604 491 133 or email us at sales@pdee.com. Alternatively, you can get in touch directly by filling out our enquiry form.</p>
+      <p class="mb-4">If you have an engine that is need of some restoration and improvement work, get in touch with our team today and we'll provide you with a Maxiforce haul kit that has the components that you need. You can reach us on +971508492690 or email us at info@pdee.net. Alternatively, you can get in touch directly by filling out our enquiry form.</p>
     `
   },
   "donaldson-filters": {
@@ -102,7 +102,7 @@ const products: Record<string, ProductData> = {
         <li>Process filters for industrial applications</li>
       </ul>
       
-      <p class="mb-4">With Donaldson filtration, you are taking a step in the direction for a cleaner world. So, if you would like more information about Donaldson filters, or other engine components that we stock contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com.</p>
+      <p class="mb-4">With Donaldson filtration, you are taking a step in the direction for a cleaner world. So, if you would like more information about Donaldson filters, or other engine components that we stock contact us via phone on +971508492690 or email us at info@pdee.net.</p>
     `
   },
   "engine-parts": {
@@ -151,7 +151,7 @@ const products: Record<string, ProductData> = {
         <li>Technical support and installation advice</li>
       </ul>
       
-      <p class="mb-4">We aim to deliver high-quality products to help maintain and improve the efficiency of our customer's equipment, as well as offer an exceptional standard of customer service to match. Online or over the phone, Power Diesel Engineering and equipment trading is here to help you find the right product for your engine. Give us a call on +44 (0) 1604 491133 or email us at sales@pdee.com.</p>
+      <p class="mb-4">We aim to deliver high-quality products to help maintain and improve the efficiency of our customer's equipment, as well as offer an exceptional standard of customer service to match. Online or over the phone, Power Diesel Engineering and equipment trading is here to help you find the right product for your engine. Give us a call on +971508492690 or email us at info@pdee.net.</p>
     `
   },
   "transmission": {
@@ -190,7 +190,7 @@ const products: Record<string, ProductData> = {
         <li>Material handling</li>
       </ul>
       
-      <p class="mb-4">For more information about the transmission products we can source supply, our partnership with ZF, or to enquire about our other products and services, contact us today on +44 (0) 1604 491133 or email us at sales@pdee.com, a member of our team will be happy to help.</p>
+      <p class="mb-4">For more information about the transmission products we can source supply, our partnership with ZF, or to enquire about our other products and services, contact us today on +971508492690 or email us at info@pdee.net, a member of our team will be happy to help.</p>
     `
   },
   "undercarriage": {
@@ -226,7 +226,7 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">Cat also developed the 'high drive' (elevated sprocket) design, this is when the drive is elevated away from the earth, reducing damage and providing design and maintenance advantages. Caterpillar first introduced this with the D10 dozer in 1977.</p>
       
-      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our undercarriage products or for more information about the other heavy equipment replacement parts we stock, get in touch on +44 (0) 1604 491133 or email sales@pdee.com. We're on hand online or over the phone to help you get it right.</p>
+      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our undercarriage products or for more information about the other heavy equipment replacement parts we stock, get in touch on +971508492690 or email info@pdee.net. We're on hand online or over the phone to help you get it right.</p>
     `
   },
   "get": {
@@ -264,7 +264,7 @@ const products: Record<string, ProductData> = {
         <li>Application-specific designs for maximum productivity</li>
       </ul>
       
-      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our GET products or for more information about the other heavy equipment replacement parts we stock, get in touch with us today on +44 (0) 1604 491133 or email sales@pdee.com. We're on hand online or over the phone to help you get it right.</p>
+      <p class="mb-4">We continuously ensure our clients receive the right product at the right price. To enquire about our GET products or for more information about the other heavy equipment replacement parts we stock, get in touch with us today on +971508492690 or email info@pdee.net. We're on hand online or over the phone to help you get it right.</p>
     `
   },
   "fuel-injection-parts": {
@@ -294,7 +294,7 @@ const products: Record<string, ProductData> = {
       </ul>
       
       <h3 class="text-xl font-bold text-[#003b6f] mt-6 mb-3">Applications:</h3>
-      <ul class="list-disc pl-5 mb-4 space-y-1">
+      <ul class="list-disc pl-5 mb-4 space-y-1">  
         <li>Diesel engines for construction and mining</li>
         <li>Agricultural equipment</li>
         <li>Power generation systems</li>
@@ -302,7 +302,7 @@ const products: Record<string, ProductData> = {
         <li>Industrial machinery</li>
       </ul>
       
-      <p class="mb-4">Whether you are looking to optimise the current performance of your heavy machinery or are in need of a replacement for a failed item, PDEE can provide the full solution. Talk to one of our experts by calling +44 (0) 1604 491133 or email us at sales@pdee.com</p>
+            <p class="mb-4">Whether you are looking to optimise the current performance of your heavy machinery or are in need of a replacement for a failed item, PDEE can provide the full solution. Talk to one of our experts by calling +971508492690 or email us at info@pdee.net</p>
     `
   },
   "fleetguard-filters": {
@@ -340,7 +340,7 @@ const products: Record<string, ProductData> = {
         <li>Other major manufacturers</li>
       </ul>
       
-      <p class="mb-4">Whether you require information regarding Fleetguard filters, or our other engine part products, our friendly customer service team is on hand to answer your questions. Contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
+      <p class="mb-4">Whether you require information regarding Fleetguard filters, or our other engine part products, our friendly customer service team is on hand to answer your questions. Contact us via phone on +971508492690 or email us at info@pdee.net</p>
     `
   },
   "bearings": {
@@ -386,7 +386,7 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">With over 25 years of industry experience behind us, we have the knowledge to proficiently and accurately find the product you require. We look forward to helping you source anything from Caterpillar aftermarket parts to components for Deutz engines.</p>
       
-      <p class="mb-4">Our friendly customer service team is on hand to answer your questions, we're here to help. Contact us today on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
+      <p class="mb-4">Our friendly customer service team is on hand to answer your questions, we're here to help. Contact us today on +971508492690 or email us at info@pdee.net</p>
     `
   },
   "seals-gaskets": {
@@ -426,7 +426,7 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">During the 1960's and 1970's rapid development in synthetic polymers were made and other OEM's such as Caterpillar, Komatsu and Volvo began using Silicon and Nitrile products.</p>
       
-      <p class="mb-4">We strive to supply the right products, at the right price; it's this knowledge that sets us apart, along with the excellent customer service we aim for. Call us on +44 (0) 1604 491133 or email us at sales@pdee.com for more information.</p>
+          <p class="mb-4">We strive to supply the right products, at the right price; it's this knowledge that sets us apart, along with the excellent customer service we aim for. Call us on +971508492690 or email us at info@pdee.net for more information.</p>
     `
   },
   "electrics": {
@@ -466,7 +466,7 @@ const products: Record<string, ProductData> = {
       
       <p class="mb-4">In the early days the Remy brothers' main competitor was Dayton Engineering Laboratories Company, DELCO for short, a company that also manufactured ignition equipment and generators. In 1916 both Remy and Delco were purchased by the United Motor Company and then subsequently by General Motors in 1918. It was General Motors who amalgamated the two competitors into the legendary electrical component brand Delco Remy.</p>
       
-      <p class="mb-4">From electrical components, to replacement machinery parts, bearings, and filters we offer a one stop service for quality replacement parts. For more information on our wide range of products contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
+      <p class="mb-4">From electrical components, to replacement machinery parts, bearings, and filters we offer a one stop service for quality replacement parts. For more information on our wide range of products contact us via phone on +971508492690 or email us at info@pdee.net</p>
     `
   },
   "hydraulics-hoses": {
@@ -510,7 +510,7 @@ const products: Record<string, ProductData> = {
         <li>Industrial applications</li>
       </ul>
       
-      <p class="mb-4">For more information on our wide range of products contact us via phone on +44 (0) 1604 491133 or email us at sales@pdee.com</p>
+              <p class="mb-4">For more information on our wide range of products contact us via phone on +971508492690 or email us at info@pdee.net</p>
     `
   }
 }
